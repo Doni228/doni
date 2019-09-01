@@ -3,5 +3,5 @@ const user = new Discord.Client();
 user.login(process.env.token);
 
 user.on('ready', () => {
-user.user.setActivity('за сервером Mesa', { type: "WATCHING" });
+user.user.setActivity('за сервероas Mesa', { type: "WATCHING" });
 });
